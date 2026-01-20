@@ -18,7 +18,7 @@ jobs:
           python-version: '3.13.3'
       - name: Install dependencies
         run:
-          python -m pip install --upgrade pip
+          python -m install pip --upgrade pip
           pip install pytest
       - name: Run pytest
         run: pytest test_main.py
