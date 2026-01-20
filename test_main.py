@@ -1,4 +1,4 @@
-from yamlRepoTest.good_hello import hello, bye
+from good_hello import hello, bye
 
 def test_hello_returns_none():
     assert hello() is None
